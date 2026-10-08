@@ -87,7 +87,7 @@ ${jukyo ? `第2条 同建物について配偶者富子に配偶者居住権（�
             {hasRisk ? <span style={{color:"red"}}>⚠️ 侵害あり: 配偶者{Math.round(infr.sp)}万 長男{Math.round(infr.c1)}万 次男{Math.round(infr.c2)}万 - 警告が必要です</span> : <span style={{color:"green"}}>✓ 安全：遺留分を満たしています</span>}
             {noJukyoRisk && <div style={{color:"#b45309", marginTop:5}}>⚠️ 配偶者居住権なしで配偶者取得が少なすぎます。住む場所がなくなるリスク。</div>}
           </div>
-
+　　　 　　<button onClick={() => window.print()} style={{display:"inline-block", padding:"12px 24px", background:"#333", color:"#fff", borderRadius:"8px", marginRight:"10px", cursor:"pointer", border:"none"}}>デモ：プレビューをPDF保存で確認</button>
           <div style={{marginTop:15}}>
             <a href="https://buy.stripe.com/test_9B6fZhggNaaocWUgTg8Vi00" target="_blank" style={{display:"inline-block", padding:"12px 24px", background:"#635bff", color:"#fff", borderRadius:8, textDecoration:"none", fontWeight:"bold"}}>980円でPDFダウンロード（Stripeテスト決済）</a>
             <p style={{fontSize:11, color:"#666", marginTop:5}}>決済後に清書用便箋PDF＋公証人提出用説明書がDLできます。自筆証書の場合は全文自筆で書き写してください。</p>
