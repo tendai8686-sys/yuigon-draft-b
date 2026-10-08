@@ -89,7 +89,7 @@ ${jukyo ? `第2条 同建物について配偶者富子に配偶者居住権（�
           </div>
 
           <div style={{marginTop:15}}>
-            <button style={{padding:"10px 20px", background:"#111", color:"#fff", borderRadius:8}}>980円でPDFダウンロード（Stripe連携後に有効化）</button>
+            <a href="https://buy.stripe.com/test_9B6fZhggNaaocWUgTg8Vi00" target="_blank" style={{display:"inline-block", padding:"12px 24px", background:"#635bff", color:"#fff", borderRadius:8, textDecoration:"none", fontWeight:"bold"}}>980円でPDFダウンロード（Stripeテスト決済）</a>
             <p style={{fontSize:11, color:"#666", marginTop:5}}>決済後に清書用便箋PDF＋公証人提出用説明書がDLできます。自筆証書の場合は全文自筆で書き写してください。</p>
           </div>
         </div>
